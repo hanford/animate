@@ -2,6 +2,8 @@
 
 Thanks for getting involved with react-animations development!
 
+This project is very new and not even on NPM yet. If you're curious where it's headed, here is an [early peek at the storybook](https://out-uxmphstlgb.now.sh).
+
 ## Getting Started
 
 This project uses
