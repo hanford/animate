@@ -2,7 +2,7 @@
   "name": "@react-animations/bounce",
   "version": "0.0.1",
   "description": "Bounce any react component",
-  "main": "index.js",
+  "main": "lib/index.js",
   "module": "es/index.js",
   "scripts": {
     "test": "echo \"Write some tests you bum!\"",
