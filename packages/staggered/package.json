@@ -1,0 +1,29 @@
+{
+  "name": "@react-animations/slide-up-reveal",
+  "version": "0.0.1",
+  "description": "SlideUp any react component",
+  "main": "index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Write some tests you bum!\"",
+    "build": "node ../../shared/build-package",
+    "lint": "eslint . --max-warnings=0"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "author": "Jack Hanford",
+  "license": "MIT",
+  "files": [
+    "es",
+    "src",
+    "lib",
+    "index.js"
+  ],
+  "dependencies": {
+    "idx": "^2.4.0",
+    "prop-types": "^15.6.2",
+    "react-spring": "^5.7.2"
+  }
+}
