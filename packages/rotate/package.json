@@ -1,5 +1,5 @@
 {
-  "name": "@react-animations/slide-up-reveal",
+  "name": "@react-animations/rotate",
   "version": "0.0.1",
   "description": "SlideUp any react component",
   "main": "index.js",
