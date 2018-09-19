@@ -19,7 +19,10 @@ export class Example extends React.Component {
           <div
             style={{
               maxWidth: 300,
-              border: "1px solid gray",
+              boxShadow: "rgba(0, 0, 0, 0.2) 0px 0px 10px",
+              backgroundColor: "white",
+              textAlign: "center",
+              borderRadius: 4,
               padding: 8,
               marginTop: 8,
               width: 300
