@@ -22,7 +22,7 @@ exec(`${babel} src -d es --ignore *.test.js`, {
 });
 
 console.log("Building CommonJS modules ...");
-exec(`${babel} src -d . --ignore *.test.js`, {
+exec(`${babel} src -d lib --ignore *.test.js`, {
   BABEL_ENV: "cjs"
 });
 
