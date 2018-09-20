@@ -1,15 +1,12 @@
-// @flow
-
 import * as React from "react";
 import { Spring, config } from "react-spring";
 import idx from "idx";
 
-type Props = {
-  reveal: boolean,
-  children: React.Element
-};
+export default class LightSpeedReveal extends React.Component {
+  static defaultProps = {
+    reveal: true
+  };
 
-export default class LightSpeedReveal extends React.Component<Props> {
   render() {
     const { reveal, children } = this.props;
 

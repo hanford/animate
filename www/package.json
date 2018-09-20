@@ -1,0 +1,14 @@
+{
+  "name": "react-animations",
+  "scripts": {
+    "dev": "docz dev",
+    "build": "docz build"
+  },
+  "devDependencies": {
+    "docz": "latest"
+  },
+  "dependencies": {
+    "idx": "^2.4.0",
+    "react-spring": "^5.8.0"
+  }
+}
