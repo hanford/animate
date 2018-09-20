@@ -2,7 +2,7 @@ import * as React from "react";
 import { Spring, config } from "react-spring";
 import idx from "idx";
 
-export default class SlideDown extends React.Component<Props> {
+class SlideDown extends React.Component<Props> {
   static defaultProps = {
     reveal: true
   };
@@ -41,3 +41,5 @@ export default class SlideDown extends React.Component<Props> {
     );
   }
 }
+
+export default SlideDown;

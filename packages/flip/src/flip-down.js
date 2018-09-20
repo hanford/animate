@@ -2,7 +2,7 @@ import * as React from "react";
 import { Spring, config } from "react-spring";
 import idx from "idx";
 
-export default class FlipDown extends React.Component<Props> {
+class FlipDown extends React.Component {
   static defaultProps = {
     reveal: true
   };
@@ -42,3 +42,5 @@ export default class FlipDown extends React.Component<Props> {
     );
   }
 }
+
+export default FlipDown;

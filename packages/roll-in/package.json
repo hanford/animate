@@ -1,5 +1,5 @@
 {
-  "name": "@react-animations/rotate",
+  "name": "@react-animations/roll-in",
   "version": "0.0.1",
   "description": "SlideUp any react component",
   "main": "lib/index.js",

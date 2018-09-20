@@ -2,7 +2,7 @@ import * as React from "react";
 import { Spring, config } from "react-spring";
 import idx from "idx";
 
-export default class BouncyReveal extends React.Component<Props> {
+class Bounce extends React.Component {
   static defaultProps = {
     reveal: true
   };
@@ -41,3 +41,5 @@ export default class BouncyReveal extends React.Component<Props> {
     );
   }
 }
+
+export default Bounce;

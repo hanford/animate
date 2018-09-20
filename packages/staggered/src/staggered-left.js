@@ -1,15 +1,8 @@
-// @flow
-
 import * as React from "react";
 import { Trail, config } from "react-spring";
 import idx from "idx";
 
-type Props = {
-  children: React.Element,
-  reveal: boolean
-};
-
-export default class StaggeredReveal extends React.Component<Props> {
+export default class StaggeredReveal extends React.Component {
   static defaultProps = {
     reveal: true
   };

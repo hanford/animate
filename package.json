@@ -6,7 +6,6 @@
     "test": "lerna run test --stream",
     "build:changed": "lerna run build --parallel --since origin/master",
     "build": "lerna run build --parallel",
-    "build-storybook": "rm -rf .out && build-storybook -c .storybook -o .out",
     "precommit": "pretty-quick --staged",
     "release": "lerna run test --since origin/master && yarn build:changed && lerna publish --since origin/master"
   },
@@ -23,6 +22,8 @@
     "babel-plugin-transform-inline-environment-variables": "^0.4.3",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.14",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
     "eslint": "4.10.0",
     "eslint-config-react-app": "^2.1.0",
