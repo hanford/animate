@@ -8,10 +8,11 @@ class BounceRight extends React.Component {
   };
 
   render() {
-    const { reveal, children } = this.props;
+    const { reveal, delay, children } = this.props;
 
     return (
       <Spring
+        delay={delay}
         from={{
           opacity: 0,
           scale: 0.2,

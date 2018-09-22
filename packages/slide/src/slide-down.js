@@ -2,16 +2,18 @@ import * as React from "react";
 import { Spring, config } from "react-spring";
 import idx from "idx";
 
-class SlideDown extends React.Component<Props> {
+class SlideDown extends React.Component {
   static defaultProps = {
-    reveal: true
+    reveal: true,
+    delay: 0
   };
 
   render() {
-    const { reveal, children } = this.props;
+    const { reveal, delay, children } = this.props;
 
     return (
       <Spring
+        delay={delay}
         from={{
           opacity: 0,
           translateY: -30

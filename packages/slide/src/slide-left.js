@@ -6,14 +6,16 @@ import idx from "idx";
 
 export default class SlideLeft extends React.Component {
   static defaultProps = {
-    reveal: true
+    reveal: true,
+    delay: 0
   };
 
   render() {
-    const { reveal, children } = this.props;
+    const { reveal, delay, children } = this.props;
 
     return (
       <Spring
+        delay={delay}
         from={{
           opacity: 0,
           translateX: -30
