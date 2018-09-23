@@ -11,6 +11,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@storybook/react": "^3.4.11",
     "autoprefixer": "^8.6.2",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
