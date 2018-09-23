@@ -10,6 +10,7 @@ This project uses
 
 - [Lerna](https://lernajs.io/) to manage multiple libs
 - [Storybook](https://storybook.js.org/) for a great development experience
+- [docz](https://docz.site) for documentation
 - [Jest](https://jestjs.io/) for painless testing.
 
 Before doing anything else, run these commands:
