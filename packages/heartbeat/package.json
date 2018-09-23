@@ -1,0 +1,30 @@
+{
+  "name": "@react-animations/heartbeat",
+  "version": "0.0.1",
+  "description": "heartbeat any react component",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Write some tests you bum!\"",
+    "build": "node ../../shared/build-package",
+    "lint": "eslint . --max-warnings=0"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "author": "Jack Hanford",
+  "license": "MIT",
+  "files": [
+    "es",
+    "src",
+    "lib",
+    "index.js"
+  ],
+  "dependencies": {
+    "emotion": "^9.2.10",
+    "idx": "^2.4.0",
+    "prop-types": "^15.6.2",
+    "react-spring": "^5.7.2"
+  }
+}
