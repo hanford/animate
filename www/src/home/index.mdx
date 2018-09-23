@@ -1,0 +1,37 @@
+---
+name: Home
+route: /
+order: -1
+---
+
+import { Hero } from './hero.tsx'
+
+<Hero />
+
+## How to
+
+Install any animation as a dependency using yarn
+```bash
+yarn add @react-animations/bounce
+```
+
+or npm
+```bash
+npm install @react-animations/bounce --save
+```
+
+Finally, wrap your component! 
+```javascript
+import * as React from 'react'
+import Bounce from '@react-animations/bounce'
+
+..
+
+ render () {
+   return (
+     <Bounce>
+      <Text>I'm animated</Text>
+    </Bounce>
+   )
+ }
+```

@@ -4,16 +4,15 @@ import idx from "idx";
 
 class BounceDown extends React.Component {
   static defaultProps = {
-    reveal: true,
-    delay: 0
+    reveal: true
   };
 
   render() {
-    const { reveal, delay, children } = this.props;
+    const { reveal, children, ...props } = this.props;
 
     return (
       <Spring
-        delay={delay}
+        {...props}
         from={{
           opacity: 0,
           scale: 0.2,

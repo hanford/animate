@@ -4,16 +4,15 @@ import idx from "idx";
 
 class SlideDown extends React.Component {
   static defaultProps = {
-    reveal: true,
-    delay: 0
+    reveal: true
   };
 
   render() {
-    const { reveal, delay, children } = this.props;
+    const { reveal, delay, children, ...props } = this.props;
 
     return (
       <Spring
-        delay={delay}
+        props={props}
         from={{
           opacity: 0,
           translateY: -30

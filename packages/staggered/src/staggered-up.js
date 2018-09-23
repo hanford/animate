@@ -8,10 +8,11 @@ export default class StaggeredReveal extends React.Component<Props> {
   };
 
   render() {
-    const { reveal, children } = this.props;
+    const { reveal, children, ...props } = this.props;
 
     return (
       <Trail
+        {...props}
         from={{
           opacity: 0,
           translateY: 40

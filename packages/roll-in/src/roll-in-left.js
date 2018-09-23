@@ -8,10 +8,11 @@ export default class RollInLeft extends React.Component {
   };
 
   render() {
-    const { reveal, children } = this.props;
+    const { reveal, children, ...props } = this.props;
 
     return (
       <Spring
+        {...props}
         from={{
           opacity: 0,
           rotate: -120,

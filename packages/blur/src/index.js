@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Spring, config } from "react-spring";
+import { Spring } from "react-spring";
 import idx from "idx";
 
-export default class RotateDownLeft extends React.Component {
+class Blur extends React.Component {
   static defaultProps = {
     reveal: true
   };
@@ -14,24 +14,18 @@ export default class RotateDownLeft extends React.Component {
       <Spring
         {...props}
         from={{
-          opacity: 0,
-          rotate3d: 45
+          blur: 10
         }}
         to={{
-          opacity: reveal ? 1 : 0,
-          rotate3d: reveal ? 0 : 45
+          blur: reveal ? 0 : 10
         }}
-        config={config.wobbly}
       >
-        {({ opacity, rotate3d }) => {
-          if (opacity === 0) return null;
-
+        {({ blur }) => {
           const childStyle = idx(children, _ => _.props.style) || {};
+
           const style = {
             ...childStyle,
-            opacity,
-            transformOrigin: "left bottom",
-            transform: `rotate3d(0, 0, 1, ${rotate3d}deg)`
+            filter: `blur(${blur}px)`
           };
 
           return React.cloneElement(children, {
@@ -43,3 +37,5 @@ export default class RotateDownLeft extends React.Component {
     );
   }
 }
+
+export default Blur;
