@@ -10,3 +10,4 @@ lerna-debug.log*
 /foo.js
 .out
 www/.docz
+storybook-static/
