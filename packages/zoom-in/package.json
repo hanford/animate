@@ -1,6 +1,6 @@
 {
   "name": "@react-animations/zoom-in",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SlideUp any react component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -30,5 +30,8 @@
     "idx": "^2.4.0",
     "prop-types": "^15.6.2",
     "react-spring": "^5.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@react-animations/heartbeat",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "heartbeat any react component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -31,5 +31,8 @@
     "type": "git",
     "url": "https://github.com/hanford/react-animations.git"
   },
-  "bugs": "https://github.com/hanford/react-animations/issues"
+  "bugs": "https://github.com/hanford/react-animations/issues",
+  "publishConfig": {
+    "access": "public"
+  }
 }
