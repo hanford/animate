@@ -1,6 +1,6 @@
 {
   "name": "@react-animations/tada",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tada any react component",
   "main": "lib/index.js",
   "module": "es/index.js",
