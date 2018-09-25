@@ -6,22 +6,23 @@ import idx from "idx";
 
 export default class SlideLeft extends React.Component {
   static defaultProps = {
-    reveal: true
+    reveal: true,
+    from: -30
   };
 
   render() {
-    const { reveal, children, ...props } = this.props;
+    const { reveal, children, from, ...props } = this.props;
 
     return (
       <Spring
         {...props}
         from={{
           opacity: 0,
-          translateX: -30
+          translateX: from
         }}
         to={{
           opacity: reveal ? 1 : 0,
-          translateX: reveal ? 0 : -30
+          translateX: reveal ? 0 : from
         }}
         config={config.wobbly}
       >

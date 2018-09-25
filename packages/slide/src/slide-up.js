@@ -4,22 +4,23 @@ import idx from "idx";
 
 export default class SlideUp extends React.Component {
   static defaultProps = {
-    reveal: true
+    reveal: true,
+    from: 30
   };
 
   render() {
-    const { reveal, children, ...props } = this.props;
+    const { reveal, children, from, ...props } = this.props;
 
     return (
       <Spring
         {...props}
         from={{
           opacity: 0,
-          translateY: 30
+          translateY: from
         }}
         to={{
           opacity: reveal ? 1 : 0,
-          translateY: reveal ? 0 : 30
+          translateY: reveal ? 0 : from
         }}
         config={config.wobbly}
       >
