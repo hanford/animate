@@ -1,6 +1,6 @@
 {
   "name": "@react-animations/rubberband",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rubberband any react component",
   "main": "lib/index.js",
   "module": "es/index.js",
