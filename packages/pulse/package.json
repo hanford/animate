@@ -26,5 +26,10 @@
     "idx": "^2.4.0",
     "prop-types": "^15.6.2",
     "react-spring": "^5.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanford/react-animations.git"
+  },
+  "bugs": "https://github.com/hanford/react-animations/issues"
 }

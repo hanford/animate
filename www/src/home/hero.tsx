@@ -34,6 +34,20 @@ const Buttons = styled('div')`
   margin-top: 40px;
 `
 
+const Anchor = styled('a')`
+  background-color: #e6ebf1;
+  background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
+  background-position: -0.5em;
+  border: 1px solid rgba(27, 31, 35, 0.35);
+  border-radius: 2px;
+  padding: 8px 24px;
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+  width: 120px;
+  text-align: center;
+`
+
 export const Hero = withRouter(({ history }) => (
   <Wrapper>
     <StaggeredUp>
@@ -41,7 +55,12 @@ export const Hero = withRouter(({ history }) => (
       <Subtitle>It's never been easier to animate react!</Subtitle>
 
       <Buttons>
-        <button onClick={() => history.push('/documentation')}>Github</button>
+        <Anchor
+          target="_blank"
+          href="https://github.com/hanford/react-animations"
+        >
+          Github
+        </Anchor>
       </Buttons>
     </StaggeredUp>
   </Wrapper>

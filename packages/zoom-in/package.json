@@ -4,6 +4,11 @@
   "description": "SlideUp any react component",
   "main": "lib/index.js",
   "module": "es/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanford/react-animations.git"
+  },
+  "bugs": "https://github.com/hanford/react-animations/issues",
   "scripts": {
     "test": "echo \"Write some tests you bum!\"",
     "build": "node ../../shared/build-package",
