@@ -1,4 +1,4 @@
-# react-animations website
+# animate website
 
 ## Installation and usage
 

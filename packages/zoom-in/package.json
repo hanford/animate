@@ -1,14 +1,14 @@
 {
-  "name": "@react-animations/zoom-in",
+  "name": "@animate/zoom-in",
   "version": "0.0.4",
   "description": "SlideUp any react component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hanford/react-animations.git"
+    "url": "https://github.com/hanford/animate.git"
   },
-  "bugs": "https://github.com/hanford/react-animations/issues",
+  "bugs": "https://github.com/hanford/animate/issues",
   "scripts": {
     "test": "echo \"Write some tests you bum!\"",
     "build": "node ../../shared/build-package",

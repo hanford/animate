@@ -1,10 +1,10 @@
-# Welcome to react-animations ✨
+# Welcome to @animate ✨
 
-Thanks for getting involved with react-animations development!
+Thanks for getting involved with animate development!
 
 🚧 The project is totally new, expect change 🚧
 
-[Documentation Preview](https://react-animations.jackhanford.com)
+[Documentation Preview](https://animate.jackhanford.com)
 <br />
 [Storybook Preview](https://storybook-static-whtqwhvtsy.now.sh/)
 
@@ -20,8 +20,8 @@ This project uses
 Before doing anything else, run these commands:
 
 ```
-git clone git@github.com:hanford/react-animations.git
-cd react-animations
+git clone git@github.com:hanford/animate.git
+cd animate
 yarn install
 yarn bootstrap
 yarn build
@@ -87,7 +87,7 @@ cd packages/<component-path>
 yarn test --watch
 ```
 
-Questions? Feedback? [Please let me know](https://github.com/hanford/react-animations/issues/new)
+Questions? Feedback? [Please let me know](https://github.com/hanford/animate/issues/new)
 
 ## License (MIT)
 

@@ -1,5 +1,5 @@
 {
-  "name": "@react-animations/rubberband",
+  "name": "@animate/rubberband",
   "version": "0.0.4",
   "description": "rubberband any react component",
   "main": "lib/index.js",
@@ -29,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hanford/react-animations.git"
+    "url": "https://github.com/hanford/animate.git"
   },
-  "bugs": "https://github.com/hanford/react-animations/issues",
+  "bugs": "https://github.com/hanford/animate/issues",
   "publishConfig": {
     "access": "public"
   }

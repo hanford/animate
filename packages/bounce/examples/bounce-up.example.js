@@ -1,7 +1,7 @@
 import React from "react";
-import { BounceUp } from "../src";
+import { Bounce } from "../src";
 
-export let name = "<BounceUp />";
+export let name = "<Bounce up={true} />";
 
 export class Example extends React.Component {
   state = {
@@ -15,7 +15,7 @@ export class Example extends React.Component {
           Reveal
         </button>
 
-        <BounceUp reveal={this.state.reveal}>
+        <Bounce up reveal={this.state.reveal}>
           <div
             style={{
               maxWidth: 300,
@@ -30,7 +30,7 @@ export class Example extends React.Component {
           >
             <h1>React Component</h1>
           </div>
-        </BounceUp>
+        </Bounce>
       </React.Fragment>
     );
   }

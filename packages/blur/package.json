@@ -1,5 +1,5 @@
 {
-  "name": "@react-animations/blur",
+  "name": "@animate/blur",
   "version": "0.0.4",
   "description": "Blur any react component",
   "main": "lib/index.js",
@@ -28,9 +28,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hanford/react-animations.git"
+    "url": "https://github.com/hanford/animate.git"
   },
-  "bugs": "https://github.com/hanford/react-animations/issues",
+  "bugs": "https://github.com/hanford/animate/issues",
   "publishConfig": {
     "access": "public"
   }

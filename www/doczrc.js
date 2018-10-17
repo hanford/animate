@@ -6,7 +6,7 @@ const SRC = path.resolve(__dirname, 'src')
 
 export default {
   src: './src',
-  title: 'react-animations',
+  title: 'animate',
   description: 'It has never been so easy to animate react',
   indexHtml: 'src/index.html',
   // theme: 'src/theme/index',

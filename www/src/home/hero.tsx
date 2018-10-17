@@ -51,14 +51,11 @@ const Anchor = styled('a')`
 export const Hero = withRouter(({ history }) => (
   <Wrapper>
     <StaggeredUp>
-      <Title>react-animations</Title>
+      <Title>@animate</Title>
       <Subtitle>It's never been easier to animate react!</Subtitle>
 
       <Buttons>
-        <Anchor
-          target="_blank"
-          href="https://github.com/hanford/react-animations"
-        >
+        <Anchor target="_blank" href="https://github.com/hanford/animate">
           Github
         </Anchor>
       </Buttons>
