@@ -1,6 +1,6 @@
 {
   "name": "@animate/slide",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "slide any react component in any direction",
   "main": "lib/index.js",
   "module": "es/index.js",

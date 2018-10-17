@@ -1,6 +1,6 @@
 {
   "name": "@animate/bounce",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Bounce any react component",
   "main": "lib/index.js",
   "module": "es/index.js",
