@@ -1,7 +1,7 @@
 import React from "react";
-import { RollInLeft } from "../src";
+import { RollIn } from "../src";
 
-export let name = "<RollInLeft />";
+export let name = "<RollIn left />";
 
 export class Example extends React.Component {
   state = {
@@ -15,7 +15,7 @@ export class Example extends React.Component {
           Reveal
         </button>
 
-        <RollInLeft reveal={this.state.reveal}>
+        <RollIn left reveal={this.state.reveal}>
           <div
             style={{
               maxWidth: 300,
@@ -30,7 +30,7 @@ export class Example extends React.Component {
           >
             <h1>React Component</h1>
           </div>
-        </RollInLeft>
+        </RollIn>
       </React.Fragment>
     );
   }

@@ -1,7 +1,7 @@
 import React from "react";
-import { FlipRight } from "../src";
+import { Flip } from "../src";
 
-export let name = "<FlipRight />";
+export let name = "<Flip down />";
 
 export class Example extends React.Component {
   state = {
@@ -15,7 +15,7 @@ export class Example extends React.Component {
           Reveal
         </button>
 
-        <FlipRight reveal={this.state.reveal}>
+        <Flip down={true} reveal={this.state.reveal}>
           <div
             style={{
               maxWidth: 300,
@@ -30,7 +30,7 @@ export class Example extends React.Component {
           >
             <h1>React Component</h1>
           </div>
-        </FlipRight>
+        </Flip>
       </React.Fragment>
     );
   }
